@@ -1,10 +1,10 @@
-#Overview
-------------------
+Overview 
+----------------------------
 This is an extension of the Mixed Freq. Data Sampling model ([Ghysels 2004](https://econpapers.repec.org/paper/circirwor/2004s-20.htm)) to multivariate settings.
 Yet, this is still working-in-progress since the proposed model cannot find visible solution to parse matricies.
 
-## Function description
---------------------------
+Function description
+----------------------------
 mMIDAS_master.m  : This is the main function
 mMixFreqData.m   : This function aligns the date of both high-and-low freq. variables given the specified lag numbers
 MIDAS_Estimate.m :This is the main estimation algorithm which depends on the pre-specified polynomial function
